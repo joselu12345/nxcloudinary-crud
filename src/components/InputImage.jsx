@@ -81,8 +81,10 @@ export default function InputImage({ image = default_image }) {
                 style={{
                     display: 'block',
                     aspectRatio: 1,
-                    width: '324px',
-                    height: '200px',
+                    //width: '324px',
+                    //height: '200px',
+                    width: '300px',
+                    height: '300px',
                     objectFit: 'cover',
                     objectPosition: 'center'
                 }} />
